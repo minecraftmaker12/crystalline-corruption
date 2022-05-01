@@ -1,9 +1,49 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "CrystallineCreeper",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalline_creeper"
+    },
+    {
+      "name": "CrystallineCreeperPlayerCollidesWithThisEntity",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crystalline_creeper_player_collides_with_this_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "item.crystalline_corruption.crystalline_creeper_spawn_egg": "Crystalline Creeper Spawn Egg",
+      "entity.crystalline_corruption.crystalline_creeper": "Crystalline Creeper"
+    }
   },
   "foldersRoot": {
     "name": "~",
